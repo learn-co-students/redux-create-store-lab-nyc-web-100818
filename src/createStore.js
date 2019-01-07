@@ -14,7 +14,7 @@ let state;
       // const container = document.getElementById('container');
     }
 
-    dispatch({tpe: "@@INIT"})
+    dispatch({type: "@@INIT"})
 
     return {
       dispatch,
